@@ -1,0 +1,49 @@
+/* Estilo da página de comentários */
+.comments-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.comments-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.comment {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.comment p {
+    margin: 0;
+}
+
+.comment .author {
+    font-weight: bold;
+}
+
+.comment .date {
+    color: #888;
+    font-size: 12px;
+}
+
+.comment .actions {
+    margin-top: 10px;
+}
+
+.comment .actions button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.comment .actions button:hover {
+    background-color: #555;
+}

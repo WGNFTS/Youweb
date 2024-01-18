@@ -1,0 +1,27 @@
+/* Estilo da página de Erro 404 */
+.error404-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.error404-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.error404-page p {
+    margin-bottom: 10px;
+}
+
+.error404-page a {
+    text-decoration: underline;
+    color: #333;
+}
+
+.error404-page a:hover {
+    color: #555;
+}

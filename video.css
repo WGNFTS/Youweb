@@ -1,0 +1,28 @@
+/* Estilo da página de vídeo */
+.video-page {
+    text-align: center;
+}
+
+.video-page h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.video-page video {
+    width: 80%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+/* Estilo dos botões de ação */
+.like-button, .dislike-button, .share-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.like-button:hover, .dislike-button:hover, .share-button:hover {
+    background-color: #555;
+}

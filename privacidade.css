@@ -1,0 +1,27 @@
+/* Estilo da página de política de privacidade */
+.privacy-policy-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.privacy-policy-page h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.privacy-policy-page p {
+    margin-bottom: 10px;
+}
+
+.privacy-policy-page a {
+    text-decoration: underline;
+    color: #333;
+}
+
+.privacy-policy-page a:hover {
+    color: #555;
+}

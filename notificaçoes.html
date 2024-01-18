@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Configurações de Notificações</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Configurações de Notificações</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="pesquisa.html">Pesquisa</a></li>
+                <li><a href="comentarios.html">Comentários</a></li>
+                <li><a href="configuracoes.html">Configurações</a></li>
+                <li><a href="notificacoes.html">Notificações</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Configurações de notificações aqui -->
+        <h2>Configurações de Notificações</h2>
+        <form action="/salvar_notificacoes" method="post">
+            <label for="notificacoes">Receber notificações por e-mail:</label>
+            <input type="checkbox" id="notificacoes" name="notificacoes">
+            
+            <input type="submit" value="Salvar Alterações">
+        </form>
+    </main>
+    
+    <footer>

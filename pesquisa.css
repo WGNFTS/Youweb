@@ -1,0 +1,23 @@
+/* Estilo do formulário de pesquisa */
+.search-form {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ddd;
+}
+
+.search-button {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.search-button:hover {
+    background-color: #555;
+}

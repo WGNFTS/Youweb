@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload de Vídeos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Upload de Vídeos</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="perfil.html">Perfil</a></li>
+                <li><a href="pesquisa.html">Pesquisa</a></li>
+                <li><a href="upload.html">Upload</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <main>
+        <!-- Formulário de upload de vídeos aqui -->
+        <h2>Envie seu Vídeo</h2>
+        <form action="/processar_upload" method="post" enctype="multipart/form-data">
+            <label for="titulo">Título do Vídeo:</label>
+            <input type="text" id="titulo" name="titulo" required>
+            
+            <label for="video">Escolha o Vídeo:</label>
+            <input type="file" id="video" name="video" accept="video/*" required>
+            
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Meu Website</p>
+    </footer>
+</body>
+</html>

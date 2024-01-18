@@ -1,0 +1,32 @@
+/* Estilo da lista de vídeos */
+.video-list {
+    list-style: none;
+}
+
+.video-list li {
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+
+.video-list h3 {
+    font-size: 18px;
+    margin-bottom: 5px;
+}
+
+.video-list video {
+    max-width: 100%;
+}
+
+/* Estilo dos botões de ação */
+.like-button, .dislike-button, .share-button {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.like-button:hover, .dislike-button:hover, .share-button:hover {
+    background-color: #555;
+}
