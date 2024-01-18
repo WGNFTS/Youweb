@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RECPLAYERS - Melhorado</title>
+    <style>
+        /* (Estilos CSS existentes) */
+
+        /* Novos estilos e ajustes podem ser adicionados aqui */
+    </style>
+</head>
+<body>
+    <!-- (Cabeçalho e navegação existentes) -->
+
+    <!-- Barra de Pesquisa Avançada -->
+    <div id="advanced-search-bar">
+        <input type="text" placeholder="Pesquisar vídeos">
+        <select id="category-select">
+            <option value="all">Todas as categorias</option>
+            <option value="music">Música</option>
+            <option value="tutorial">Tutorial</option>
+            <!-- Adicione mais categorias conforme necessário -->
+        </select>
+        <button onclick="performAdvancedSearch()">Buscar Avançada</button>
+    </div>
+
+    <!-- (Restante do conteúdo existente) -->
+
+    <!-- JavaScript (Aprimorado) -->
+    <script>
+        // (Funções existentes)
+
+        // Nova função para busca avançada
+        function performAdvancedSearch() {
+            const searchInput = document.getElementById("search-bar").value;
+            const categorySelect = document.getElementById("category-select");
+            const selectedCategory = categorySelect.options[categorySelect.selectedIndex].value;
+
+            // Implemente a lógica de busca avançada aqui, utilizando os parâmetros fornecidos
+        }
+    </script>
+</body>
+</html>
